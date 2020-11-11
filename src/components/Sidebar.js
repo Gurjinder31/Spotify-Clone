@@ -16,9 +16,9 @@ const Sidebar = () => {
         src="https://iaudioguide.com/wp-content/uploads/2014/12/spotify-logo-primary-horizontal-dark-background-rgbizi.jpg"
         alt=""
       />
-      <SidebarOption Icon="homeicon" title="Home" />
-      <SidebarOption Icon="searcicon" title="Search" />
-      <SidebarOption Icon="Libraryicon" title="Your Library " />
+      <SidebarOption Icon={HomeIcon} title="Home" />
+      <SidebarOption Icon={SearchIcon} title="Search" />
+      <SidebarOption Icon={LibraryMusicIcon} title="Your Library " />
       <br />
       <strong className="sidebar_title">Playlist</strong>
       <hr />
